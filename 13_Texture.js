@@ -11,7 +11,7 @@ import { Shader, readShaderFile } from './util/shader.js';
 import { Cube } from './util/cube.js';
 import { Arcball } from './util/arcball.js';
 import { loadTexture } from './util/texture.js';
-import { mat4 } from './util/gl-matrix-min.js';
+ 
 const canvas = document.getElementById('glCanvas');
 const gl = canvas.getContext('webgl2');
 let shader;
